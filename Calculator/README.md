@@ -1,67 +1,77 @@
-# ➕ Basic Calculator (Python)
+# 🧮 Calculator Projects (Python)
 
-This project is a **menu-driven basic calculator** built using Python.  
-It allows users to perform simple arithmetic operations through a **command-line interface (CLI)**.
+This repository contains a **collection of Python-based calculator applications**, built step by step to strengthen Python fundamentals.  
+Each calculator demonstrates a **different level of complexity and learning progression**, from basic arithmetic to history-based expression evaluation.
 
 ---
-## 📁 Project Structure
+
+## 📂 Project Structure
 ```
-basic_calculator/
-├── calculator.py
+Calculator/
+├── basic_Calculator/
+├── calculator_with_history/
+├── history_based_eval_calculator/
 └── README.md
 ```
 ---
-## 🛠️ Tech Stack
-- **Language:** Python  
-- **Concepts Used:**  
-  - `while` loop  
-  - Conditional statements (`if-elif-else`)  
-  - User input handling  
-  - Basic arithmetic operations  
+
+## 📌 Projects Overview
+
+### ➕ Basic Calculator
+- Menu-driven calculator
+- Supports addition, subtraction, multiplication, and division
+- Built using loops and conditional statements
+- Focuses on Python fundamentals
+
+📁 Folder: `basic_Calculator/`
 
 ---
 
-## 🎯 Features
-- Menu-based calculator
-- Supports:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Division
-- Continuous execution until user exits
-- Handles division by zero safely
-- Beginner-friendly logic and structure
+### 🧮 Calculator with History
+- Performs arithmetic operations
+- Stores calculation history in a file
+- Supports viewing and clearing history
+- Introduces file handling concepts
+
+📁 Folder: `calculator_with_history/`
 
 ---
 
-## ▶️ How It Works
-1. Displays a menu with arithmetic options
-2. User selects an operation
-3. User enters two numbers
-4. Calculator performs the selected operation
-5. Program repeats until the user chooses to exit
+### 🧠 History-Based Eval Calculator
+- Evaluates full mathematical expressions (BODMAS)
+- Uses `eval()` with input validation
+- Stores and manages calculation history
+- Demonstrates advanced string processing and file handling
+
+📁 Folder: `history_based_eval_calculator/`
 
 ---
 
-## 📌 Sample Output
-```text
---- Calculator ---
-1. Add
-2. Subtract
-3. Multiply
-4. Divide
-5. Exit
+## 🛠️ Key Python Concepts Covered
+- Loops and conditionals  
+- File handling (`read`, `write`, `append`)  
+- String manipulation  
+- Input validation  
+- Expression evaluation  
+- Modular and iterative development  
 
-Enter choice: 1
-Enter first number: 10
-Enter second number: 5
-Result: 15
-```
+---
+
+## 🎯 Learning Goals
+- Build confidence with Python fundamentals  
+- Understand how calculators work internally  
+- Learn to manage user input and program flow  
+- Progress from basic to advanced logic step by step  
+
+---
+
 ## 👨‍💻 Author
+**Nitish Kumar**  
+Aspiring Data Analyst / Data Scientist  
 
-Nitish Kumar
-Aspiring Data Analyst / Data Scientist
+🔗 GitHub: https://github.com/Nitishkumar50814  
 
-🔗 GitHub: https://github.com/Nitishkumar50814
+---
 
-
+## ⭐ Note
+These projects are created for **learning and practice purposes**, focusing on clarity, correctness, and progressive skill development.
